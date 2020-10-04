@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To Do</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1> To Do List </h1>
+    </header>
+
+    <span><div id="date"></div>
+    <div id="time"></div></span>
+
+    <div class="form">
+        <button class="add-button">
+        <i class="fas fa-plus-circle "></i>
+        </button>
+        <input type="text" id="input" placeholder="Add an item">
+        <div class="remove">
+            <i class="fas fa-redo-alt refresh-button"></i>
+        </div>
+    </div>
+
+    <div class="content">
+        <ul id="list"></ul>
+    </div>
+    
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
